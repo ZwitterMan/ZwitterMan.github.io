@@ -406,14 +406,14 @@ body {
     }
 
     .slick-prev:before {
-    	content: url(https://github.com/ZwitterMan/ZwitterMan.github.io/blob/master/Smallapps/img/arrowl.png);
+    	content: url(http://github.com/ZwitterMan/ZwitterMan.github.io/blob/master/Smallapps/img/arrowl.png);
     	position: relative;
     	left: -46px;
     	bottom: 50px;
     }
 
     .slick-next:before {
-    	content: url(https://github.com/ZwitterMan/ZwitterMan.github.io/blob/master/Smallapps/img/arrowr.png);
+    	content: url(http://github.com/ZwitterMan/ZwitterMan.github.io/blob/master/Smallapps/img/arrowr.png);
     	position: relative;
     	right: -46px;
     	bottom: 50px;
