@@ -406,14 +406,14 @@ body {
     }
 
     .slick-prev:before {
-    	content: url(http://cs24.userfiles.me/f/086185094130157052205003086217173047115009149227130129/1502813871/70070209/1024x768/766187a9b36e327badcd4da855c27ede/arrowl.png);
+    	content: url(https://github.com/ZwitterMan/ZwitterMan.github.io/blob/master/Smallapps/img/arrowl.png);
     	position: relative;
     	left: -46px;
     	bottom: 50px;
     }
 
     .slick-next:before {
-    	content: url(http://cs22.userfiles.me/f/086185094130157052205003086217173047115009149227130129/1502813903/70070210/1024x768/5d416f76b19686e5f7d3c119f9be1ee4/arrowr.png);
+    	content: url(https://github.com/ZwitterMan/ZwitterMan.github.io/blob/master/Smallapps/img/arrowr.png);
     	position: relative;
     	right: -46px;
     	bottom: 50px;
