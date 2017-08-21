@@ -406,14 +406,14 @@ body {
     }
 
     .slick-prev:before {
-    	content: url(http://am.cdnmob.org/pic/v2/gallery/preview/eda-kofe-40639.jpg);
+    	content: url(http://zwitterman.github.io/Smallapps/img/arrowl.png);
     	position: relative;
     	left: -46px;
     	bottom: 50px;
     }
 
     .slick-next:before {
-    	content: url(http://github.com/ZwitterMan/ZwitterMan.github.io/blob/master/Smallapps/img/arrowr.png);
+    	content: url(http://zwitterman.github.io/Smallapps/img/arrowr.png);
     	position: relative;
     	right: -46px;
     	bottom: 50px;
