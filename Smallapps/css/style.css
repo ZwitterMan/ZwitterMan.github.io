@@ -9,7 +9,7 @@
 
 @font-face {
 	font-family: 'Socialico';
-	src: url("Socialico.ttf");
+	src: url("socialico.ttf");
 }
 
 @keyframes features {
@@ -105,8 +105,8 @@ blockquote {
 
 .container {
 	margin: 0 auto;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .aligner {
@@ -125,6 +125,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 	color: #afb8b8;
+	overflow-x: hidden;
 }
 
 /*topline*/
@@ -386,7 +387,6 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	width: 30%;
-	text-align: center;
 }
 
 	.gallery-item img {
@@ -544,5 +544,48 @@ footer {
 			font-size: 14px;
 		}
 
+/*--------------------*/
 
+.mobile-menu { display: none; }
+
+.mobile-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.9);
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+}
+
+	.mobile-wrapper .mobile-navigation {
+		margin: 0 auto;
+		background-color: #fff;
+		padding: 46px;
+		border-radius: 2px;
+	}
+
+	.mobile-wrapper .mobile-navigation nav ul:nth-child(2) {
+		margin-top: 30px;
+	}
+
+	.mobile-wrapper .mobile-navigation nav ul { text-align: center; }
+
+	.mobile-wrapper .mobile-navigation nav ul li {
+		padding: 16px;
+		color: #5e5e5e;
+	}
+
+		.mobile-wrapper .mobile-navigation nav ul li a {
+			color: #000;
+			display: inline-block;
+			height: auto;
+			width: 100%;
+		}
+
+	.mobile-wrapper .mobile-navigation nav ul li:hover { background-color: #f5f5f5; }
+
+	.mobile-wrapper .mobile-navigation nav ul li.active { background-color: #f5f5f5; }
 
