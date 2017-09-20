@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+    font-family: "RamsLt";
+    src: url(RamsLt.otf);
+}
+
+@font-face {
+    font-family: "RamsBd";
+    src: url(Rams-Bold.otf);
+}
+
+@font-face {
+    font-family: "RamsBk";
+    src: url(RamsBlack.otf);
+}
+
+@keyframes flicker {
+    0% { opacity: 0.2; }
+    25% { opacity: 0.3; }
+    50%{ opacity: 0.2; }
+    75%{ opacity: 0.1; }
+    100%{ opacity: 0.2; }
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+ul, ul li { list-style-type: none; }
+
+h1 {
+    margin: 0 auto;
+    padding: 0;
+    line-height: normal;
+    font-size: 42px;
+    color: #000;
+    font-weight: normal;
+    font-family: "RamsBd";
+}
+
+h2 {
+    margin: 0 auto;
+    padding: 0;
+    line-height: normal;
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+    font-family: "RamsBd";
+}
+
+.white { color: #f7f7f7; }
+
+.black { color: #000; }
+
+.lighter { font-family: "RamsLt"; }
+
+.bolder { font-family: "RamsBk"; }
+
+.button { display: inline-block; }
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.cover {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.gradient {
+    background: linear-gradient(to bottom right, #F5B553, #854836);
+    background: -o-linear-gradient(to bottom right, #F5B553, #854836);
+    background: -ms-linear-gradient(to bottom right, #F5B553, #854836);
+    background: -moz-linear-gradient(to bottom right, #F5B553, #854836);
+    background: -webkit-linear-gradient(to bottom right, #F5B553, #854836);
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f7f7f7;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #000;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.preview {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.preview .wrapper { text-align: center; }
+
+.preview .wrapper span {
+    opacity: 0.2;
+    font-size: 95px;
+    animation: flicker 4s infinite;
+}
+
+.preview .wrapper h1 {
+    position: relative;
+    top: -64px;
+}
+
+.preview .wrapper h2 {
+    position: relative;
+    top: -54px;
+}
+
+.preview .wrapper .portfolio-button {
+    font-size: 16px;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+
+.preview .wrapper .portfolio-button:hover {
+    transition: 0.6s;
+    opacity: 0.6;
+}
+
+.preview .wrapper .order-button {
+    font-size: 16px;
+    text-align: center;
+    padding: 13px;
+    width: 200px;
+    box-sizing: border-box;
+    border: solid 2px #000;
+    margin-left: 15px;
+}
+
+.preview .wrapper .order-button:hover {
+    transition: 0.6s;
+    opacity: 0.6;
+}
+
+#services .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#services .container .cover .table {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#services .container .cover .table .tr {
+    margin: 0;
+    width: 50%;
+    padding: 0;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#services .container .cover .table .black-tr { background-color: #000; }
+
+#services .container .cover .table .tr
+.services-info {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#services .container .cover .table .tr
+.services-info div {
+    margin: 40px;
+    border-bottom: solid 2px transparent;
+}
+
+#services .container .cover .table .tr
+.services-info div:hover {
+    transition: 0.6s;
+    border-bottom: solid 2px #000;
+}
+
+#services .container .cover .table .black-tr
+.services-info div:hover { border-bottom: solid 2px #f7f7f7; }
+
+#services .container .cover .table
+.tr:hover .services-name {
+    transition: 0.6s;
+    transform: rotateX(360deg);
+}
+
+#contact .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#contact .container .cover .wrapper { text-align: center; }
+
+#contact .container .cover .wrapper span {
+    opacity: 0.2;
+    font-size: 48px;
+    animation: flicker 4s infinite;
+    color: #F5B553;
+    animation: flicker 4s infinite;
+}
+
+#contact .container .cover .wrapper
+h2 {
+    position: relative;
+    top: -32px;
+}
+
+#contact .container .cover .wrapper
+form input {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: solid 2px #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #000;
+    outline: none;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#contact .container .cover .wrapper
+form input:focus { outline: none; }
+
+#contact .container .cover .wrapper
+form input::-webkit-input-placeholder { color: #000; }
+
+#contact .container .cover .wrapper
+form input::-moz-placeholder          { color: #000; }
+
+#contact .container .cover .wrapper
+form input:-moz-placeholder           { color: #000; }
+
+#contact .container .cover .wrapper
+form input:-ms-input-placeholder      { color: #000; }
+
+.send-button {
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+
+.send-button:hover {
+    transition: 0.6s;
+    opacity: 0.6;
+}
+
+footer {
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer .cover {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*media*/
+
+@media screen and ( max-width: 1024px ) {
+    .cover {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    #services .container .cover .table .tr { width: 100%; }
+    
+    #services .container .cover .table
+    .tr:nth-child(3) { background-color: #000; }
+    
+    #services .container .cover .table
+    .tr:nth-child(3) h1 { color: #fff; }
+    
+    #services .container .cover .table
+    .tr:last-child { 
+        background-color: #f7f7f7;
+        color: #000;
+    }
+    
+    #services .container .cover .table
+    .tr:last-child h1 { color: #000; }
+    
+    #services .container
+    .cover .table
+    .tr:last-child .services-info div:hover { border-bottom: solid 2px #000; }
+}
+
+@media screen and ( max-width: 768px ) {
+    .preview .wrapper span { font-size: 46px; }
+    
+    .preview .wrapper h1 { top: 0px; }
+
+    .preview .wrapper h2 { top: -10px; margin: 15px; }
+    
+    .preview .wrapper .order-button {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    
+    .preview .wrapper .portfolio-button {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    
+    #contact .container .cover
+    .wrapper span { display: none; }
+    
+    #contact .container .cover .wrapper h2 {
+        top: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and ( max-width: 425px ) {
+    .cover {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    body { font-size: 12px; }
+    
+    h1 { font-size: 20px; }
+    
+    h2 { font-size: 12px; }
+    
+    .preview .wrapper span { 
+        opacity: 0.5;
+        animation: none;
+        font-size: 22px;
+    }
+    
+    .preview .wrapper h1 { margin-top: 30px; }
+    
+    .preview .wrapper
+    .portfolio-button { font-size: 12px; }
+    
+    .preview .wrapper
+    .order-button { font-size: 12px; }
+    
+    .send-button {
+        font-size: 12px;
+         margin-right: 0;
+    }
+    
+    #contact .container .cover .wrapper
+    form input { font-size: 12px; }
+    
+    .logotype { width: 100%; }
+    
+    #services .container .cover .table .tr
+    .services-info div { margin: 15px; }
+    
+    #services .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+}
+
+
+
+
