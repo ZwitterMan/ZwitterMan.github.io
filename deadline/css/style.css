@@ -736,6 +736,7 @@ a:hover {
     
     #header {
         height: auto;
+        min-height: 100vh;
     }
     
     .footer-content .footer-block {
