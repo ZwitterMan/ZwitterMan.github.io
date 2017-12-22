@@ -888,6 +888,10 @@ a:hover {
 
 @media screen and (max-width: 675px) {
     
+    #header {
+        min-height: 100vh;
+    }
+    
     .container {
         padding: 20px;
     }
@@ -925,8 +929,8 @@ a:hover {
     }
     
     .registration {
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     #header .content {
