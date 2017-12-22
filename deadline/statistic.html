@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shopmoney</title>
+	<!--Slider-->
+	<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="css/style.css">
+    <!--Icons-->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    <!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
+</head>
+
+
+<body id="page">
+    
+    <header id="page-header">
+        <div class="background-cover">
+            <div class="topline">
+                <div class="flexible">
+                    <div class="logotype">
+                        <a href="#">
+                            <img src="img/logo.png"> shopmoney
+                            <span>ЛУЧШИЙ ЭКОНОМИЧЕСКИЙ СИМУЛЯТОР</span>
+                        </a>
+                    </div>
+                    <nav class="main-menu">
+                        <li><a href="index.html" class="active">ГЛАВНАЯ</a></li>
+                        <li><a href="about.html">О НАС</a></li>
+                        <li><a href="news.html">НОВОСТИ</a></li>
+                        <li><a href="review.html">ОТЗЫВЫ</a></li>
+                        <li><a href="faq.html">F.A.Q</a></li>
+                        <li><a href="#">СТАТИСТИКА</a></li>
+                        <a href="#" class="login button">ВОЙТИ</a>
+                    </nav>
+                    <!--mobile-->
+                    <a class="burger button"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                    <nav class="mobile-menu">
+                        <li><a class="close-menu"><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="active">ГЛАВНАЯ</a></li>
+                        <li><a href="about.html">О НАС</a></li>
+                        <li><a href="news.html">НОВОСТИ</a></li>
+                        <li><a href="review.html">ОТЗЫВЫ</a></li>
+                        <li><a href="faq.html">F.A.Q</a></li>
+                        <li><a href="statistic.html">СТАТИСТИКА</a></li>
+                        <li><a href="#" class="login button">ВОЙТИ</a></li>
+                        <li><a href="#" class="login button">РЕГИСТРАЦИЯ</a></li>
+                    </nav>
+                    <!--mobile end-->
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div id="page-content">
+        <div class="container">
+            <h2>СТАТИСТИКА</h2>
+            <div class="flexible">
+                <div class="main-statistic">
+                    <div class="statistic-data">
+                        ВСЕГО ИГРОКОВ
+                        <div class="statistic-value">
+                            895
+                        </div>
+                    </div>
+                    <div class="statistic-data">
+                        ПОПОЛНИЛИ
+                        <div class="statistic-value">
+                            9031.00
+                        </div>
+                    </div>
+                    <div class="statistic-data">
+                        ВЫВЕЛИ
+                        <div class="statistic-value">
+                            946.00
+                        </div>
+                    </div>
+                    <div class="statistic-data">
+                        ДНЕЙ ПРОЕКТУ
+                        <div class="statistic-value">
+                            14
+                        </div>
+                    </div>
+                </div>
+                <div class="statistic-block">
+                    <div class="statistic-title">
+                        РЕЙТИНГ УЧАСТНИКОВ ПО СУММЕ ПОПОЛНЕНИЙ
+                    </div>
+                    <div class="stat-table">
+                        <div class="stat-string">
+                            <div class="stat-cell title-cell">
+                                Логин
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Дата Регистрации
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Сумма
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistic-block">
+                    <div class="statistic-title">
+                        РЕЙТИНГ УЧАСТНИКОВ ПО ДОХОДУ С РЕФЕРАЛОВ
+                    </div>
+                    <div class="stat-table">
+                        <div class="stat-string">
+                            <div class="stat-cell title-cell">
+                                Логин
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Дата Регистрации
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Сумма
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistic-block">
+                    <div class="statistic-title">
+                        РЕЙТИНГ УЧАСТНИКОВ ПО СУММЕ ЗАРАБОТКА
+                    </div>
+                    <div class="stat-table">
+                        <div class="stat-string">
+                            <div class="stat-cell title-cell">
+                                Логин
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Дата Регистрации
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Сумма
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistic-block">
+                    <div class="statistic-title">
+                        РЕЙТИНГ УЧАСТНИКОВ ПО КОЛ-ВУ РЕФЕРАЛОВ
+                    </div>
+                    <div class="stat-table">
+                        <div class="stat-string">
+                            <div class="stat-cell title-cell">
+                                Логин
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Дата Регистрации
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Сумма
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                24/10/2017 в 12:39
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistic-block">
+                    <div class="statistic-title">
+                        ПОСЛЕДНИЕ 20 ВЫПЛАТ УЧАСТНИКАМ
+                    </div>
+                    <div class="stat-table">
+                        <div class="stat-string">
+                            <div class="stat-cell title-cell">
+                                Логин
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Платежная Система
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Сумма
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistic-block">
+                    <div class="statistic-title">
+                        ПОСЛЕДНИЕ 20 ПОПОЛНЕНИЙ БАЛАНСА
+                    </div>
+                    <div class="stat-table">
+                        <div class="stat-string">
+                            <div class="stat-cell title-cell">
+                                Логин
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Платежная Система
+                            </div>
+                            <div class="stat-cell title-cell">
+                                Сумма
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                        <div class="stat-string">
+                            <div class="stat-cell">
+                                Igorevich
+                            </div>
+                            <div class="stat-cell">
+                                <img src="img/system.png" alt="payeer">
+                            </div>
+                            <div class="stat-cell">
+                                312100 руб
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="footer-content">
+                <div class="footer-block">
+                    <ul>
+                        <li><a href="about.html">О системе</a></li>
+                        <li><a href="news.html">Новости проекта</a></li>
+                        <li><a href="faq.html">Вопрос-ответ</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="agree.html">Пользовательское соглашение</a></li>
+                        <li><a href="response.html">Отзывы о нас</a></li>
+                        <li><a href="tp.html">Техническая поддержка</a></li>
+                    </ul>
+                </div>
+                <div class="public"><center>
+                    <script type="text/javascript" src="//vk.com/js/api/openapi.js?151"></script>
+                <div id="vk_groups"></div>
+                <script type="text/javascript">
+                VK.Widgets.Group("vk_groups", {mode: 3, width: "280", height: "200"}, 158321572);
+                    </script></center>
+                </div>
+                <div class="footer-block">
+                    <h2>Рассказать о нас</h2>
+                    <div class="social-links">
+                        <a href="#" class="btn-social button">
+                            <i class="fa fa-vk" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="btn-social button">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="btn-social button">
+                            <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).on('ready', function() {
+		$(".regular").slick({
+			dots: false,
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 1
+		});
+	});
+</script>
+   
+<script>
+    var Menu = document.querySelector(".mobile-menu");
+    var Burger = document.querySelector(".burger").onclick = function () {
+        Menu.style.display = "block";
+    }
+    var Closer = document.querySelector(".close-menu").onclick = function () {
+            Menu.style.display = "none";
+        }
+</script>
+    
+</body>
+
+</html>
