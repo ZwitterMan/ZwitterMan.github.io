@@ -1,0 +1,123 @@
+/*Anton Miazyn*/
+
+@media screen and (max-width: 1200px) {
+    .scenery-card { width: 100%; }
+    
+    .scenery-card > .scenery-img { height: 380px; }
+}
+
+@media screen and (max-width: 1024px) {
+    .scenery-card > .scenery-img { height: 280px; }
+    
+    .reviews-block { width: 80%; }
+    
+    .hero > form > .form-item { 
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    
+    .hero > form > .form-item > input,
+    .hero > form > .form-item > select {
+        width: 80%;
+    }
+    
+    .search-button {
+        display: block;
+        margin: 0 auto;
+        max-width: 120px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .city-column { display: none; }
+    
+    .scenery-list { width: 100%; }
+    
+    .scenery-card > .scenery-img { height: 400px; }
+}
+
+@media screen and (max-width: 768px) {
+    .reviews-block { width: 100%; }
+    
+    .features-block {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .features-block:last-child { padding-bottom: 0; }
+    
+    .burger-menu {
+        display: block;
+        margin-top: 20px;
+        text-align: right;
+    }
+    
+    .main-menu {
+        display: none;
+        width: 300px;
+        position: absolute;
+        top: 64px;
+        right: 0;
+        background-color: #fff;
+        border-radius: 0 0 0 4px;
+        border-bottom: solid 1px #dfdfdf;
+        border-left: solid 1px #dfdfdf;
+    }
+    
+    .main-menu > li {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    #footer ul { width: 50%; }
+}
+
+@media screen and (max-width: 520px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .hero {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .hero > form > .form-item { width: 100%; }
+    
+    .scenery-card > .scenery-img { height: 200px; }
+    
+    .review-userpic, .reviews-user { width: 100%; }
+    
+    .review-userpic { margin-bottom: 20px; }
+    
+    .review-userpic > img { width: 80px; }
+    
+    #footer ul {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .offers-card { width: 170px; }
+    
+    .offers-card > .offers-img {
+        height: 100px;
+        width: 170px;
+    }
+}
